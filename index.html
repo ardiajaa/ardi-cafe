@@ -10,7 +10,9 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive website food</title>
+        <link rel="icon" type="image/png" href="assets/img/icon.png">
+
+        <title>Website Ardi Cafe</title>
     </head>
     <body>
 
@@ -22,15 +24,15 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Tasty</a>
+                <a href="#" class="nav__logo">Ardi Cafe</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Tentang Kami</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Pelayanan</a></li>
                         <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Kontak Kami</a></li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
@@ -47,9 +49,9 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <h1 class="home__title">Tasty food</h1>
-                        <h2 class="home__subtitle">Try the best food of <br> the week.</h2>
-                        <a href="#" class="button">View Menu</a>
+                        <h1 class="home__title">Ardi Cafe</h1>
+                        <h2 class="home__subtitle">Cobalah menu terbaik <br> hari ini.</h2>
+                        <a href="#menu" class="button">Lihat Menu</a>
                     </div>
     
                     <img src="assets/img/home.png" alt="" class="home__img">
@@ -60,10 +62,11 @@
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
                     <div class="about__data">
-                        <span class="section-subtitle about__initial">About us</span>
-                        <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
-                        <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                        <a href="#" class="button">Explore history</a>
+                        <span class="section-subtitle about__initial">Tentang Kami</span>
+                        <h2 class="section-title about__initial">Kami menyajikan <br> yang terbaik disini</h2>
+                        <p class="about__description">Tempat terbaik untuk menikmati hidangan lezat di Gresik! 
+                        Kami menyajikan makanan berkualitas tinggi dengan cita rasa istimewa, pelayanan pelanggan yang ramah, dan harga terbaik.</p>
+                        <a href="https://maps.app.goo.gl/7qBoRuU7CxgSH3mY7" class="button">Kunjungi Kami</a>
                     </div>
 
                     <img src="assets/img/about.jpg" alt="" class="about__img">
@@ -72,8 +75,8 @@
 
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
-                <span class="section-subtitle">Offering</span>
-                <h2 class="section-title">Our amazing services</h2>
+                <span class="section-subtitle">Pelayanan</span>
+                <h2 class="section-title">Apa yang Kami Tawarkan?</h2>
 
                 <div class="services__container  bd-grid">
                     <div class="services__content">
@@ -138,8 +141,9 @@
                             16.8875 47.057C17.3045 47.4744 17.9811 47.4746 18.3984 47.0576C18.8157 
                             46.6405 18.816 45.964 18.3989 45.5466Z"/>
                         </svg>
-                        <h3 class="services__title">Excellent food</h3>
-                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                        <h3 class="services__title">Makanan Berkualitas</h3>
+                        <p class="services__description">Kami selalu menyajikan hidangan terbaik dengan cita rasa lezat dan bahan berkualitas tinggi. 
+                        Nikmati pengalaman kuliner yang tak terlupakan!</p>
                     </div>
 
                     <div class="services__content">
@@ -295,8 +299,9 @@
                             </clipPath>
                             </defs>
                         </svg>
-                        <h3 class="services__title">Fast food</h3>
-                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                        <h3 class="services__title">Makanan Cepat Saji</h3>
+                        <p class="services__description">Butuh makanan enak dalam waktu singkat? 
+                        Kami siap menyajikan makanan cepat saji yang lezat, praktis, dan tetap berkualitas!</p>
                     </div>
 
                     <div class="services__content">
@@ -351,8 +356,9 @@
                                 </clipPath>
                                 </defs>
                         </svg>
-                        <h3 class="services__title">Delivery</h3>
-                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                        <h3 class="services__title">Layanan Antar</h3>
+                        <p class="services__description">Tak sempat datang ke café? Tenang! Pesan sekarang, dan kami akan mengantarkan makanan favorit 
+                        Anda langsung ke tempat Anda dengan cepat dan aman.</p>
                     </div>
                 </div>
             </section>
@@ -360,49 +366,200 @@
             <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
                 <span class="section-subtitle">Special</span>
-                <h2 class="section-title">Menu of the week</h2>
+                <h2 class="section-title">Menu Hari Ini</h2>
 
                 <div class="menu__container bd-grid">
                     <div class="menu__content">
-                        <img src="assets/img/plate1.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Barbecue salad</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$22.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <img src="assets/img/menu1.png" alt="Nasi Goreng Spesial" class="menu__img">
+                        <h3 class="menu__name">Nasi Goreng Spesial</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp15.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Nasi%20Goreng%20Spesial" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
 
                     <div class="menu__content">
-                        <img src="assets/img/plate2.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Salad with fish</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$12.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <img src="assets/img/menu2.png" alt="Mie Ayam" class="menu__img">
+                        <h3 class="menu__name">Mie Ayam</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Mie%20Ayam" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu3.png" alt="Spaghetti Bolognese" class="menu__img">
+                        <h3 class="menu__name">Spaghetti Bolognese</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp18.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Spaghetti%20Bolognese" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu4.png" alt="Teriyaki Rice Bowl" class="menu__img">
+                        <h3 class="menu__name">Teriyaki Rice Bowl</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp23.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Teriyaki%20Rice%20Bowl" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu5.png" alt="Nasi Ayam Geprek" class="menu__img">
+                        <h3 class="menu__name">Nasi Ayam Geprek</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Nasi%20Ayam%20Geprek" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu6.png" alt="Chicken Steak" class="menu__img">
+                        <h3 class="menu__name">Chicken Steak</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp25.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Chicken%20Steak" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu7.png" alt="Bakso" class="menu__img">
+                        <h3 class="menu__name">Bakso</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Bakso" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu8.png" alt="Soto" class="menu__img">
+                        <h3 class="menu__name">Soto</h3>
+                        <span class="menu__detail">Makanan</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Soto" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu9.png" alt="Kentang Goreng" class="menu__img">
+                        <h3 class="menu__name">Kentang Goreng</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Kentang%20Goreng" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu10.png" alt="Roti Bakar" class="menu__img">
+                        <h3 class="menu__name">Roti Bakar</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Roti%20Bakar" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu11.png" alt="Pisang Goreng" class="menu__img">
+                        <h3 class="menu__name">Pisang Goreng</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Pisang%20Goreng" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu12.png" alt="Tahu Crispy" class="menu__img">
+                        <h3 class="menu__name">Tahu Crispy</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp8.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Tahu%20Crispy" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu13.png" alt="Churros" class="menu__img">
+                        <h3 class="menu__name">Churros</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Churros" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu14.png" alt="Dimsum" class="menu__img">
+                        <h3 class="menu__name">Dimsum</h3>
+                        <span class="menu__detail">Camilan</span>
+                        <span class="menu__preci">Rp12.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Dimsum" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu15.png" alt="Kopi Susu" class="menu__img">
+                        <h3 class="menu__name">Kopi Susu</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp6.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Kopi%20Susu" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu16.png" alt="Teh Manis" class="menu__img">
+                        <h3 class="menu__name">Teh Manis Cold/Hot</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp4.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Teh%20Manis%20Cold/Hot" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu17.png" alt="Lemon Tea" class="menu__img">
+                        <h3 class="menu__name">Lemon Tea Cold/Hot</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp6.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Lemon%20Tea%20Cold/Hot" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu18.png" alt="Jus Alpukat" class="menu__img">
+                        <h3 class="menu__name">Jus Alpukat</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp6.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Jus%20Alpukat" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu19.png" alt="Jus Jeruk" class="menu__img">
+                        <h3 class="menu__name">Jus Jeruk</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp6.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Jus%20Jeruk" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu20.png" alt="Milkshake" class="menu__img">
+                        <h3 class="menu__name">Milkshake</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Milkshake" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu21.png" alt="Matcha Latte" class="menu__img">
+                        <h3 class="menu__name">Matcha Latte</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Matcha%20Latte" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu22.png" alt="Bubble Tea" class="menu__img">
+                        <h3 class="menu__name">Bubble Tea</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Bubble%20Tea" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/menu23.png" alt="Blue Ocean Soda" class="menu__img">
+                        <h3 class="menu__name">Blue Ocean Soda</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp10.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Blue%20Ocean%20Soda" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                     
                     <div class="menu__content">
-                        <img src="assets/img/plate3.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Spinach salad</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$9.50</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <img src="assets/img/menu24.png" alt="Cappuccino" class="menu__img">
+                        <h3 class="menu__name">Cappuccino</h3>
+                        <span class="menu__detail">Minuman</span>
+                        <span class="menu__preci">Rp9.000</span>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan%20Cappuccino" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
-                </div>
-            </section>
-
-            <!--===== APP =======-->
-            <section class="app section bd-container">
-                <div class="app__container bd-grid">
-                    <div class="app__data">
-                        <span class="section-subtitle app__initial">App</span>
-                        <h2 class="section-title app__initial">App is aviable</h2>
-                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
-                        <div class="app__stores">
-                            <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
-                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
-                        </div>
-                    </div>
-
-                    <img src="assets/img/movil-app.png" alt="" class="app__img">
                 </div>
             </section>
 
@@ -410,13 +567,15 @@
             <section class="contact section bd-container" id="contact">
                 <div class="contact__container bd-grid">
                     <div class="contact__data">
-                        <span class="section-subtitle contact__initial">Let's talk</span>
-                        <h2 class="section-title contact__initial">Contact us</h2>
-                        <p class="contact__description">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+                        <span class="section-subtitle contact__initial">Mari Bicara</span>
+                        <h2 class="section-title contact__initial">Hubungi Kami</h2>
+                        <p class="contact__description">
+                        Ingin memesan meja di Ardi Café? Atau ingin pesan makanan dan minuman favorit Anda untuk dibawa pulang atau diantar langsung ke tempat Anda? Hubungi kami sekarang, dan kami akan melayani Anda dengan cepat melalui layanan chat.
+                        </p>
                     </div>
 
                     <div class="contact__button">
-                        <a href="#" class="button">Contact us now</a>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan" class="button">Hubungi Kami Sekarang!</a>
                     </div>
                 </div>
             </section>
@@ -426,47 +585,37 @@
         <footer class="footer section bd-container">
             <div class="footer__container bd-grid">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">Tasty Food</a>
-                    <span class="footer__description">Restaurant</span>
+                    <a href="#" class="footer__logo">Ardi Cafe</a>
+                    <span class="footer__description">Cafe</span>
                     <div>
-                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://wa.me/6285117163745?text=Halo,%20saya%20ingin%20memesan" class="footer__social"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="https://www.facebook.com/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/codecraft.techno" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/" class="footer__social"><i class='bx bxl-twitter'></i></a>
                     </div>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Services</h3>
+                    <h3 class="footer__title">Informasi</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Delivery</a></li>
-                        <li><a href="#" class="footer__link">Pricing</a></li>
-                        <li><a href="#" class="footer__link">Fast food</a></li>
-                        <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                        <li><a href="#about" class="footer__link">Tentang Kami</a></li>
+                        <li><a href="#services" class="footer__link">Pelayanan</a></li>
+                        <li><a href="#menu" class="footer__link">Menu</a></li>
+                        <li><a href="#contact" class="footer__link">Kontak Kami</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Information</h3>
+                    <h3 class="footer__title">Alamat</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Event</a></li>
-                        <li><a href="#" class="footer__link">Contact us</a></li>
-                        <li><a href="#" class="footer__link">Privacy policy</a></li>
-                        <li><a href="#" class="footer__link">Terms of services</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Adress</h3>
-                    <ul>
-                        <li>Lima - Peru</li>
-                        <li>Jr Union #999</li>
-                        <li>999 - 888 - 777</li>
-                        <li>tastyfood@email.com</li>
+                        <li><a href="https://maps.app.goo.gl/7qBoRuU7CxgSH3mY7" class="footer__link">Jl. Raya Metatu, Jogodalu, Kec. Benjeng, Kabupaten Gresik, Jawa Timur 61172</a></li>
+                        <li><a href="tel:+6285117163745" class="footer__link">+62 8511 7163 745</a></li>
+                        <li><a href="mailto:ardiantorizky7@gmail.com" class="footer__link">ardiantorizky7@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+            <p class="footer__copy">&#169; 2025 CodeCraft. All right reserved</p>
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
